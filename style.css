@@ -1,0 +1,489 @@
+* { box-sizing: border-box; }
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+     
+}
+
+/* ********************header */
+
+.header{
+    display: none;
+    z-index: 1003;
+    width: 100%;
+    height: 60px;
+    
+}
+.header div{
+    display: flex;
+    gap : 10px ;
+    height: 100%;
+    text-align: center;
+    margin:  auto;
+    padding-left: 10px;
+}
+.text_header{
+    width: 20%;       
+}
+span{
+    font-size: 23px; 
+    font-weight: bold;
+    margin-top: 14px;        
+}
+.text_header img{
+    margin-top: 20px;
+    width: 25px;
+    height: 17px;
+}
+.icons{
+    justify-content: flex-end;
+    width: 80%;
+}
+.icons a{
+    margin-right: 18px;
+    margin-top: 17px;
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+    font-size: 18px;
+            
+}
+.icons a:hover{
+    color: black;
+}
+.reg_btn{
+    margin-right: 5%;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-top: 9px;
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+    background-color:  #4caf4f;
+    align-items: center;   
+    justify-content: center; 
+    border: none;
+    border-radius: 5px;
+}
+.reg_btn:hover {
+    box-shadow: 0px 0px 20px #4caf4f;
+}
+     /* *******************main */
+.main{
+    width: 100%;
+    height: 800px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+            
+}
+.main div{
+    width: 90%;   
+}
+.description{
+    width: 60%;
+}
+.description h1{
+    font-size: 40px;
+    padding-top: 90px;
+    margin-left: 19%;
+}
+
+.pic{
+    text-align: center;
+    width: 40%;
+}
+.pic img{
+    padding-top: 100px;
+}
+        /* ***************clients */
+.clients{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-left: 18%;
+}
+.tup{        
+    width: 80%;
+    height: 55%;
+}
+.tup div{
+    padding-top: 20px;
+}
+.line{
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 20%;
+    height: 2%;
+}
+.down{
+    width: 90%;
+    text-align: center;
+    height: 43%;
+}
+.icons img{
+    margin-left: 5%;
+    margin-top: 17px;
+    text-decoration: none;
+    color: rgb(85, 80, 80);
+    width: 45px;
+            
+}
+/* **********************rectangle */
+.rectangle{
+    width: 100%;
+    height: 900px;
+
+}
+.rectangle div{
+    text-align: center;
+    padding-top: 4%;
+    border-radius: 15px;
+    margin-top: 2%;
+    width: 40%;
+    height: 30%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.rectangle div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px #4caf4f;
+}
+.rectangle div span{
+    margin-top: 10%;
+    padding-top: 10%;
+    font-size: 10px;
+}
+/* *************learn */
+.learn{
+    width: 100%;
+    height: 600px;
+}
+.learn div{
+    height: 50%;
+    margin-top:2% ;
+    margin-left: 26%;
+}
+.le1{
+    text-align: center;
+    width: 35%;
+}
+.le2{
+    width: 55%;
+    padding-top: 5%;
+}
+.le1 img{
+    width: 320px;
+}
+/* *********************count */
+.count{
+    background-color: #f5f7fa;
+    width: 100%;
+    height: 400px;
+}
+
+.co1{
+    padding-left: 0;
+    padding-top: 7%;
+    height: 100%;
+    width: 58%;
+}
+.co2{
+    height: 100%;
+    width: 42%;
+    display: flex;
+}
+.co2 div{
+    height: 100%;
+    width: 50%;
+}
+
+.cl1 div{
+    height: 50%;
+    width: 100%;
+}
+.cl2 div{
+    height: 50%;
+    width: 100%;
+}
+.ro1{
+    padding-top: 25%;
+    display: flex;
+    gap: 1%;
+}
+.ro2{
+    padding-top: 25%;
+    display: flex;
+    gap: 1%;
+}    
+.ro3{
+    padding-top: 25%;
+    display: flex;
+    gap: 1%;
+}
+.ro4{
+    padding-top: 25%;
+    display: flex;
+    gap: 1%;
+}  
+/* **********************marketing */   
+.marketing{
+    text-align: center;    
+    height: 1200px;
+    width: 100%;
+}
+.mar1{  
+    width : 100%;
+    height: 15%;
+    text-align: center;
+}
+.picc{ 
+    height: 90%;
+    width: 100%;
+}
+.a1{
+    text-decoration: none;
+    font-size: 12px;
+    color: #4caf4f;
+}
+
+/* **************************me */
+.me{
+    width: 100%;
+    height: 250px;
+    padding-top: 5%;
+    text-align: center;
+    background-color: #f5f7fa;
+}
+.me span{
+    font-size: 60px;
+    text-align: center;
+}
+.me button{
+    margin-left: 45%;
+}
+/* ******************footer */
+.footer{
+    background-color: #263238;
+    display: flex;
+    gap: 5%;
+    width: 100%;
+    height: 400px;
+}
+.footer div{
+    width: 22%;
+    height: 100%;
+}
+.footer img{
+    margin-top: 33px;
+    width: 45px;
+    height: 30px;
+}
+.text_footer{
+    color: white;
+    gap: 5%;
+    padding-left: 20px;
+}
+.f1{
+    font-size: 20px;
+    padding-top: 3%;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+.f3 {
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    width: 100px;
+    height: 20px;
+}
+
+.f3 input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 13px;
+    width: 100%;
+}
+
+.f3 input::placeholder {
+    color: #ccc;
+}
+
+.f3 button {
+    background: none;
+    border: none;
+    color: #4caf4f; 
+    font-size: 10px;
+}
+.menu-btn {
+    position: fixed;
+    top: 3px;
+    right: 15px;
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; 
+    width: 250px;
+    height: 100%;
+    background: #f8fafc;
+    color: #090909;
+    transition: right 0.3s ease;
+    padding: 20px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.5);
+    z-index: 1002;
+}
+
+.side-menu.active {
+    right: 0; 
+}
+
+.side-menu h3 {
+    margin-top: 10%;
+}
+
+.side-menu a {
+    display: block;
+    color: #0a0909;
+    text-decoration: none;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.side-menu button {
+    background: #4CAF50;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(244, 249, 244, 0.5);
+    display: none;
+    z-index: 1000;
+}
+.overlay.active {
+    display: block;
+}
+
+
+@media (min-width: 800px){
+    .menu-btn,
+    .side-menu,
+    .overlay {
+        display: none;
+    }
+    .header {
+        display: flex;
+    }
+    .main{
+        display: flex;
+        height: 600px;
+
+    }
+    .main div{
+        height: 100%;        
+    }
+    .description h1{
+        margin-top: 100px;    
+    }
+    .pic img{
+        margin-top: 100px;
+    }
+    .clients{
+            height: 430px;
+    }
+    .rectangle{
+        display: flex;
+        height: 310px;
+        gap: 10px;
+    }
+    .rectangle div{
+        width: 20%;
+        height: 80%;
+    }
+    .rec1{
+        margin-left: 20%;
+    }
+    .learn{
+        height: 340px;
+        display: flex;
+        gap: 10px;
+    }
+    .learn div{
+        height: 90%;
+        margin-left: 2%;
+    }
+   .marketing{
+        height: 400px;
+   }
+   .mar1{
+        height: 30%;
+   }
+   .picc{
+        height: 70%;
+   }
+   .count{
+        height: 265px;
+   }
+   .count1{
+        display: flex;
+        height: 100%;
+        width: 80%;
+        margin-left: 10%;
+        margin-left: 10%;
+
+   }
+   .text_footer{
+        display: flex;
+   }
+
+}
+@media (max-width: 800px){
+    .rectangle div{
+        margin-left: 30%;
+    }
+    .count1{
+        text-align: center;
+    }
+    .co1{
+        margin-left: 22%;
+    }
+    .co2{
+        text-align: center;
+        gap: 90px;
+        margin-left: 23%;
+        
+         
+    }
+    .learn{
+        height: 700px;
+    }
+}
+
+
+
